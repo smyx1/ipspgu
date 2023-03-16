@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PGU Mockup</title>
+
+    <!-- Metas Contenido -->
+
+    <meta name="rating" content="General" />
+    <meta name="robots" content="index,follow,all" />
+    <meta name="revisit-after" content="15 days" />
+    <meta
+      name="keywords"
+      content="Bono covid, Bono Corona Virus, corona Virus, IPS, suf, suseso, Bono Corona Virus, beneficiario, consulta, beneficio, gobierno, social, ingreso, dinero, Chile"
+    />
+    <meta
+      name="description"
+      content="Consulte si recibirá el beneficio Bono covid."
+    />
+    <meta name="author" content="Instituto de Previsión Social" />
+
+    <!-- Metas Twitter -->
+
+    <meta
+      name="twitter:description"
+      content="Consulte si recibirá el beneficio Bono covid."
+    />
+    <meta name="twitter:creator" content="@IPS" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Bono covid" />
+    <meta name="twitter:image" content="img/afp-social.jpg" />
+    <meta name="twitter:site" content="@BonoCovid" />
+
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!--metas-->
+
+    <!-- Metas Facebook -->
+
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Bono covid" />
+    <meta property="og:image" content="img/afp-social.jpg" />
+    <meta property="og:title" content="Bono covid" />
+    <meta property="og:url" content="http://bonocovid.cl" />
+    <meta
+      property="og:description"
+      content="Consulte si recibirá el beneficio Bono covid."
+    />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!--metas-->
+    <!--Bono covid-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" href="css/ie.css" />
+    <![endif]-->
+
+    <!--[if IE 9]> <link rel="stylesheet" href="css/ie9.css" /> <![endif]-->
+    <!--HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+
+      <link
+        href="js/respond-proxy.html"
+        id="respond-proxy"
+        rel="respond-proxy"
+      />
+      <link
+        href="img/respond.proxy.gif"
+        id="respond-redirect"
+        rel="respond-redirect"
+      />
+      <script src="js/respond.proxy.js"></script>
+    <![endif]-->
+
+    <!-- Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-162693598-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-162693598-1");
+    </script>
+  </head>
+  <body>
+    <!-- CONSULTA FIJA -->
+    <!--
+  <div class="consulta-fija">
+    <a href="https://consulta.aportefamiliar.cl/afper-consulta/consultaBeneficio" target="_blank" title="Link a consulta beneficio">
+      <h2>¿Tengo el beneficio?</h2>
+    </a>
+  </div>-->
+
+    <!-- FIN CONSULTA FIJA -->
+
+    <div id="inclusive">
+      <!-- NAV Movil-->
+
+      <section class="todo">
+        <div class="container-fluid visible-xs contentNexusMenu">
+          <div class="row">
+            <div class="col-xs-4">
+              <div class="logo-chileatiende-nav">
+                <img
+                  src="img/logo-chileatiende-header.png"
+                  alt="Logo ChileAtiende"
+                  title="Logo ChileAtiende"
+                />
+              </div>
+            </div>
+            <div class="col-xs-8">
+              <div class="navbar-header head-movil">
+                <a href="tel:101" title="Call Center" class="call">
+                  <i class="fas fa-phone-alt"></i>
+                </a>
+                <a
+                  data-target=".bs-example-js-navbar-collapse"
+                  data-toggle="collapse"
+                  class="navbar-toggle menu-afper-movil"
+                  title="Menú principal"
+                >
+                  <i class="fas fa-bars"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="navbar-collapse bs-example-js-navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="itemMenu1 current">
+                  <a
+                    href="#inicio"
+                    class="txtMenu"
+                    onclick="ga('send', 'event', 'Menu principal', 'clic', 'Inicio');"
+                  >
+                    Inicio
+                  </a>
+                </li>
+                <li class="itemMenu2">
+                  <a
+                    href="#que-es"
+                    class="txtMenu"
+                    onclick="ga('send', 'event', 'Menu principal', 'clic', 'Qué es');"
+                    >Consulta</a
+                  >
+                </li>
+                <li class="itemMenu3">
+                  <a
+                    href="#quienes"
+                    class="txtMenu"
+                    onclick="ga('send', 'event', 'Menu principal', 'clic', 'Para quién es');"
+                    >¿Para quién es?</a
+                  >
+                </li>
+                <li class="itemMenu4">
+                  <a href="preguntas-frecuentes.html" class="txtMenu"
+                    >Preguntas frecuentes</a
+                  >
+                </li>
+              </ul>
+              |
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- NAV Movil fin-->
+
+      <!-- CONTENEDOR HEADER -->
+
+      <div class="contenedor-header hidden-xs">
+        <!-- accesibilidad -->
+
+        <div class="menu-accesibilidad">
+          <div class="container">
+            <div class="collapse" id="accesibilidad">
+              <div class="clearfix"></div>
+              <div class="col-xs-3 titPref hidden-sm">
+                <div class="acce"><i class="fas fa-universal-access"></i></div>
+                <h4 class="menupref">
+                  Menú de <br />
+                  preferencias
+                </h4>
+              </div>
+              <div class="col-xs-2 col-md-1 modulo-accesibilidad">
+                <ul class="list-inline text-center">
+                  <li>
+                    <a
+                      href="javascript:decreaseFont();"
+                      title="Disminuir tamaño de letra"
+                      ><i class="fas fa-minus-square"></i>Disminuir</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-1 modulo-accesibilidad">
+                <ul class="list-inline text-center">
+                  <li>
+                    <a
+                      href="javascript:increaseFont();"
+                      title="Aumentar tamaño de letra"
+                      ><i class="fas fa-plus-square"></i>Aumentar
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-2 modulo-accesibilidad">
+                <ul class="list-inline text-center">
+                  <li>
+                    <a
+                      href="#"
+                      class="btn-acce"
+                      data-bloqueado="0"
+                      title="Ver el sitio en escala de grises"
+                    >
+                      <div class="grises"><i class="fas fa-adjust"></i></div>
+                      Ver el sitio en grises
+                    </a>
+                    <input
+                      name="filter"
+                      style="display: none"
+                      value="checkbox"
+                      class="filter-check"
+                      type="checkbox"
+                      id="ver-en-grises"
+                    />
+                    <span class="fa fa-spinner" style="display: none"></span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-2 modulo-accesibilidad">
+                <ul class="list-inline text-center">
+                  <li>
+                    <a
+                      href="#"
+                      class="btn-acce"
+                      data-bloqueado="0"
+                      title="Subrayar enlaces del sitio"
+                    >
+                      <div class="subrayado">
+                        <i class="fas fa-underline"></i>
+                      </div>
+                      Activar links Subrayado
+                    </a>
+                    <input
+                      name="subrayado"
+                      style="display: none"
+                      value="checkbox"
+                      class="underline-check"
+                      type="checkbox"
+                      id="activar-subrayado"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-2 modulo-accesibilidad">
+                <ul class="list-inline text-center">
+                  <li>
+                    <a
+                      href="#"
+                      id="restaurar"
+                      class="btn-acce"
+                      title="Restaurar el sitio a su versión original"
+                    >
+                      <div class="restaurar">
+                        <i class="fas fa-recycle"></i>
+                      </div>
+                      Versión original
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-1 modulo-accesibilidad">
+                <ul class="list-inline text-center">
+                  <li>
+                    <a
+                      class="btn_cerrar cerrar"
+                      href="#"
+                      title="Cerrar menú de preferencias"
+                    >
+                      <div class="restaurar"><i class="fas fa-times"></i></div>
+                      Cerrar</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+
+        <!-- fin accesibilidad -->
+
+        <!-- menu accesibilidad -->
+
+        <div class="headAcc">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-offset-8 col-sm-4 col-md-offset-9 col-md-3">
+                <div class="CallInfo">
+                  <ul class="nav navbar-nav">
+                    <li class="dropdown btn-pref">
+                      <button
+                        class="btn btn-default access pull-right collapsed"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#accesibilidad"
+                        aria-expanded="false"
+                      >
+                        <i class="fas fa-universal-access"></i>
+                        <span class="hidden-xs">
+                          A+ A- | Menú de preferencias</span
+                        >
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FIN menu accesibilidad -->
+
+        <!-- NAV -->
+
+        <div class="head">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3 col-md-4 nopadding">
+                <div class="logo-ips-nav">
+                  <a href="index.html" title="Volver al inicio">
+                    <img src="img/logo-ips-h" alt="" title="Logo IPS" />
+                  </a>
+                </div>
+                <div class="logo-chileatiende-nav">
+                  <a
+                    href="http://chileatiende.cl/"
+                    title="Chile Atiende"
+                    target="_blank"
+                  >
+                    <img
+                      src="img/logo-ips-header.png"
+                      alt="Logo ChileAtiende"
+                      title="Logo ChileAtiende"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-9 col-md-8 nopadding">
+                <div class="menu-desktop navbar-header">
+                  <ul class="nav navbar-nav">
+                    <li class="itemMenu1 current">
+                      <a
+                        href="menu.html"
+                        class="txtMenu"
+                        onclick="ga('send', 'event', 'Menu principal', 'clic', 'Inicio');"
+                        >Inicio</a
+                      >
+                    </li>
+                    <li class="itemMenu2">
+                      <a
+                        href="consulta.html"
+                        class="txtMenu"
+                        onclick="ga('send', 'event', 'Menu principal', 'clic', 'Qué es');"
+                        >Consulta</a
+                      >
+                    </li>
+                    <li class="itemMenu3">
+                      <a
+                        href="solicitudes.html"
+                        class="txtMenu"
+                        onclick="ga('send', 'event', 'Menu principal', 'clic', 'Para quién es');"
+                        >Solicitud</a
+                      >
+                    </li>
+                    <li class="itemMenu4">
+                      <a
+                        href="beneficios.html"
+                        class="txtMenu"
+                        onclick="ga('send', 'event', 'Menu principal', 'clic', 'test');"
+                        >Beneficios</a
+                      >
+                    </li>
+                    <li class="itemMenu4">
+                      <a
+                        href="procesos.html"
+                        class="txtMenu"
+                        onclick="ga('send', 'event', 'Menu principal', 'clic', 'test');"
+                        >Procesos</a
+                      >
+                    </li>
+                    <li class="itemMenu4">
+                      <a
+                        href="reportespgu.html"
+                        class="txtMenu"
+                        onclick="ga('send', 'event', 'Menu principal', 'clic', 'test');"
+                        >Reportes</a
+                      >
+                    </li>
+                    <li class="itemMenu4">
+                      <a
+                        href="parametros.html"
+                        class="txtMenu"
+                        onclick="ga('send', 'event', 'Menu principal', 'clic', 'test');"
+                        >Parametros</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FIN NAV -->
+      </div>
+
+      <!-- CONTENEDOR HEADER -->
+
+      <div class="clearfix" id="inicio"></div>
+
+      <!-- BANNER -->
+
+      <div class="row banner banner-principal" id="bprincipal">
+        <div class="col-xs-13 col-md-0 bg-color"></div>
+        <div class="col-xs-12 col-md-0 bg-color">
+          <div class="caja-texto-bg-color">
+            <h1>
+              <span><strong>.</strong></span>
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+<h1>Beneficios PGU</h1>
+<div class="headermenu">
+  <table class="table-noline table-menu">
+    <tr class="tr-menu">
+      <th class="tr-menu">Fecha de concesión</th>
+      <th></th>
+      <th class="tr-menu3">Estado </th>
+      <th class="tr-menu2">RUN</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td class="tr-menu"><input class="checkbox " type="date" name="" id="">
+      <td class="tr-menu"><input class="checkbox " type="date" name="" id="">
+      </td>
+      </td>
+      <td class="tr-menu3"><select name="language" id="language">
+          <option value="1">Seleccione</option>
+          <option value="2">2</option>
+          <option value="3" disabled>3</option>
+          <option value="4" disabled>4</option>
+        </select></td>
+      <td class="tr-menu2"> <input type="textf" id="name" name="name" required minlength="4" maxlength="50"
+          size="10"></td>
+      </td>
+      <td><button class="btn-filtros">Filtrar</button></td>
+    </tr>
+    <tr>
+
+    </tr>
+   
+  </table>
+
+
+</div>
+</div>
+      <!-- FIN BANNER -->
+
+      <!-- CONTENIDO -->
+
+      <div class="container cuerpo-home">
+        <div class="row" id="que-es">
+          <div class="col-sm-6">
+            <img src="" alt="" />
+          </div>
+          <div class="col-lg-">
+            <hr />
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">N° beneficio</th>
+                    <th scope="col">N° Solicitud</th>
+                    <th scope="col">RUN</th>
+                    <th scope="col">Nombres</th>
+                    <th scope="col">Apellidos</th>
+                    <th scope="col">Estado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">78862</th>
+                    <td>235456</td>
+                    <td>1-9</td>
+                    <td>Nombre</td>
+                    <td>Apellido</td>
+                    <td>Concedido</td>
+                    <td><a href="beneficios.html">Abrir</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">78863</th>
+                    <td>235457</td>
+                    <td>2-7</td>
+                    <td>Nombre</td>
+                    <td>Apellido</td>
+                    <td>Cesado</td>
+                    <td><a href="beneficios.html">Abrir</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">78864</th>
+                    <td>235458</td>
+                    <td>3-5</td>
+                    <td>Nombre</td>
+                    <td>Apellido</td>
+                    <td>Extinguido</td>
+                    <td><a href="submenuBeneficios.html">Abrir</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <hr />
+            <h3></h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- FIN CONTENIDO -->
+
+      <!-- BENEFICIOS IPS -->
+
+      <div class="beneficios">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <img
+                src="img/chileatiende-beneficios.png"
+                alt="Logo ChileAtiende"
+                title="Logo ChileAtiende"
+              />
+            </div>
+
+            <div class="col-sm-2"></div>
+            <div class="col-sm-6 mt-3">
+              <h3>Conozca otros beneficios en ChileAtiende.</h3>
+              <form
+                method="get"
+                action="https://www.chileatiende.gob.cl/"
+                target="_blank"
+              >
+                <button
+                  class="boton-beneficios"
+                  type="submit"
+                  title="Ver beneficios de ChileAtiende"
+                >
+                  Ver más <span>beneficios</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FIN BENEFICIOS IPS -->
+
+      <!-- footer -->
+
+      <div class="footer">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-8 col-md-8 col-xs-12">
+              <div class="row enlaces-footer">
+                <div class="col-xs-12 col-sm-4">
+                  <a
+                    href="politicas-de-privacidad.html"
+                    title="Política de privacidad"
+                    >Política de privacidad</a
+                  >
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                  <a href="visualizadores.html" title="Visualizadores"
+                    >Visualizadores</a
+                  >
+                </div>
+                <div class="col-xs-12 col-sm-1">
+                  <a
+                    href="https://creativecommons.org/licenses/by/3.0/cl/"
+                    target="_blank"
+                    title="Creative Commons"
+                    >CC</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="redes-footer">
+                <div class="col-xs-3 col-md-3">
+                  <a href="tel:101"><i class="fas fa-phone-alt"></i></a>
+                </div>
+                <div class="col-xs-3 col-md-3">
+                  <a href="https://twitter.com/ChileAtiende" target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </div>
+                <div class="col-xs-3 col-md-3">
+                  <a
+                    href="https://www.facebook.com/ChileAtiende"
+                    target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </div>
+                <div class="col-xs-3 col-md-3" id="back-top">
+                  <a href="#top"><i class="fas fa-angle-up"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2 iso-footer iconAzul"></div>
+          <div class="col-sm-2 iso-footer iconRojo"></div>
+        </div>
+      </div>
+
+      <!--  FIN footer -->
+    </div>
+    <!-- FIN ACCESIBILIDAD -->
+
+    <!-- JS -->
+    <script src="js/scripts.base.js"></script>
+    <script src="js/scripts-new.js"></script>
+    <script src="js/accessibility.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/funciones-accesibilidad.js"></script>
+
+    <!--[if !IEMobile]>
+      <script src="js/jsiemobile.js"></script>
+    <![endif]-->
+    <script>
+      // SCROLL ON TOP
+      $(document).ready(function () {
+        // hide #back-top first
+        $("#back-top").hide();
+
+        // fade in #back-top
+        $(function () {
+          $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+              $("#back-top").fadeIn();
+            } else {
+              $("#back-top").fadeOut();
+            }
+          });
+
+          // scroll body to 0px on click
+          $("#back-top a").click(function () {
+            $("body,html").animate(
+              {
+                scrollTop: 0,
+              },
+              1200
+            );
+            return false;
+          });
+        });
+
+        $(".nav.navbar-nav li a").click(function () {
+          $(".nav.navbar-nav li a").parent().removeClass("current");
+          $(this).parent().addClass("current");
+          var $target = $(this.hash);
+          $target =
+            ($target.length && $target) ||
+            $("[name=" + this.hash.slice(1) + "]");
+          if ($target.length) {
+            var targetOffset = $target.offset().top;
+            $("html,body").animate({ scrollTop: targetOffset }, 1000);
+            return false;
+          }
+        });
+
+        $("#bprincipal").hover(function () {
+          $(".nav.navbar-nav li").removeClass("current");
+          $(".itemMenu1").addClass("current");
+        });
+        $("#que-es").hover(function () {
+          $(".nav.navbar-nav li").removeClass("current");
+          $(".itemMenu2").addClass("current");
+        });
+        $("#quienes").hover(function () {
+          $(".nav.navbar-nav li").removeClass("current");
+          $(".itemMenu3").addClass("current");
+        });
+      });
+    </script>
+  </body>
+</html>
